@@ -1,3 +1,27 @@
+/* Element selector */
 html {
-    background: green;
+    background: lightblue;
 }
+h1 {
+    color: blueviolet;
+}
+
+/* Class selector */
+.yellow-text {
+    color: yellow;
+}
+
+.brown-text {
+    color: brown;
+}
+
+/* Id selector */
+#green-text {
+    color: green;
+}
+
+#red-text {
+    color: red;
+}
+
+/* Attribute selector */

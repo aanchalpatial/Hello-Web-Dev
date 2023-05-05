@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- INLINE STYLE OF ADDING -->
-<html  lang="en" style="background: red">
+<!-- <html  lang="en" style="background: lightgrey"> -->
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +15,16 @@
     </style> -->
 
     <!-- EXTERNAL STYLE OF ADDING -->
-    <!-- <link rel="stylesheet" href="./hello-stylesheet.css" /> -->
+    <link rel="stylesheet" href="./hello-stylesheet.css" />
 </head>
 <body>
     <h1>Hello CSS!</h1>
     <hr>
     <h2>CSS: Cascading style sheets</h2>
-    is a stylesheet language used to describe the presentation of a document written in HTML or XML
+    <p class="yellow-text"> a stylesheet language used to describe the presentation of a document written in HTML or XML</p>
     <ol>
         <li>
-            <h3>What is a style sheet language</h3>
+            <h3 id="green-text">What is a style sheet language</h3>
             <p>A style sheet language, or style language, is a computer language that expresses the presentation of structured documents. <br>One attractive feature of structured documents is that the content can be reused in many contexts and presented in various ways. Different style sheets can be attached to the logical structure to produce different presentations. <br>Examples: CSS, DSSSL, XSL</p>
         </li>
 
@@ -40,7 +41,21 @@
                 <li>Internal: &ltstyle&gtcss&lt/style&gt</li>
                 Use this when you target single html document
                 <li>External: &ltlink href="style.css"/&gt</li>
-                Use this when you target multiple html documents
+                Use this when you target multiple html documents. Most commonly used styles of adding CSS.
+            </ul>
+        </li>
+
+        <li>
+            <h3>CSS selectors</h3>
+            <a href="./selectors-in-action.html">Click here to see selectors in action</a><br>
+            selects the HTML element(s) you want to style.
+            <ul>
+                <li>Element selector</li>
+                selects a particular element tag
+                <li>Class selector</li>
+                <li>Id selector</li>
+                <li>Attribute selector</li>
+                <li>Universal selector</li>
             </ul>
         </li>
     </ol>
