@@ -5,6 +5,9 @@ html {
 h1 {
     color: blueviolet;
 }
+div {
+    border: 5px solid black;
+}
 
 /* Class selector */
 .yellow-text {
@@ -38,8 +41,5 @@ h1 {
     margin: 10px;
 }
 
-div {
-    border: 5px solid black;
-}
 
 /* Attribute selector */

@@ -1,0 +1,35 @@
+
+
+/* Cascading types*/
+/* 1. Position */
+#position {
+  color: red;
+  color: green;
+}
+
+#position {
+  color: yellow;
+}
+
+/* 2. Specificity */
+li {
+  color: black;
+}
+.blue-text {
+  color: blue;
+}
+li[draggable] {
+  color: green;
+}
+#magenta-text {
+  color: magenta;
+}
+
+/* 3. type */
+
+/* 4. Importance */
+
+html {
+  background-color: gray !important;
+  background-color: white;
+}

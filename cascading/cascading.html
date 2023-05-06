@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS cascading</title>
+  <link rel="stylesheet" href="./cascading-style.css" />
+</head>
+
+<body>
+  <h1>Why is CSS called cascading?</h3>
+  <p>Cascading style sheets are called cascading because several different style sheets can be active for a single document at the same time.<br>The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.</p>
+  <p>lower to higher priority types: lower down in image, higher the priority</p>
+  <p>note: there are 2 flows of priorities, once is among categories and another is among sub categories</p>
+  <img src="../assets/cascading-priorities.png" alt="cascading priorities" height="250px">
+  <ul>
+      <li id="position">Position: later in the file, the higher priority</li>
+      <li>Specificity: lower to higher priority selector</li>
+          <ul>
+              <li>element</li>
+              <li class="blue-text">class</li>
+              <li draggable class="blue-text">attribute</li>
+              <li id= "magenta-text" draggable class="blue-text">id</li>
+          </ul> 
+      <li>Type: lower to higher priority style of adding css</li>
+      <ul>
+          <li>external</li>
+          <li>internal</li>
+          <li>inline</li>
+      </ul> 
+      <li>Importance: !important keyword has the highest priority </li>
+  </ul>
+
+  <h2>Combining CSS selectors</h2>
+</body>
+
+</html>
