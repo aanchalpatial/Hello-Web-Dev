@@ -1,0 +1,24 @@
+/* Named */
+html {
+    font-size: x-large;
+}
+
+/* Pixel */
+h2 {
+    font-size: 20px;
+}
+
+/* Point */
+#point {
+    font-size: 20pt;
+}
+
+/* em */
+#em {
+    font-size: 2em;
+}
+
+/* rem */
+#rem {
+    font-size: 2rem;
+}

@@ -16,6 +16,11 @@
 
     <!-- EXTERNAL STYLE OF ADDING -->
     <link rel="stylesheet" href="./hello-stylesheet.css" />
+
+    <!-- Adding a custom font from font.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Hello CSS!</h1>
@@ -47,7 +52,7 @@
 
         <li>
             <h3>CSS selectors</h3>
-            <a href="./selectors-in-action.html">Click here to see selectors in action</a><br>
+            <a href="./selectors/selectors.html">Click here to see selectors in action</a><br>
             selects the HTML element(s) you want to style.
             <ul>
                 <li>Element selector</li>
@@ -56,6 +61,27 @@
                 <li>Id selector</li>
                 <li>Attribute selector</li>
                 <li>Universal selector</li>
+            </ul>
+        </li>
+
+        <li>
+            <h3>Properties</h3>
+            <ul>
+                <li>color properties<br> background-color property is for background color, whereas color property is for text color</li>
+                <li>font properties</li>
+                <ul>
+                    <li><a href="./font-size/font-size.html">font-size</a></li>
+                    <li>font-weight</li>
+                    <ul>
+                        <li>keyword: normal, bold</li>
+                        <li>relative to parent: lighter(-100), bolder(+100)</li>
+                        <li>absolute number: 100-900</li>
+                    </ul>
+                    <li>font-family</li>
+                    <p id="kalam-google-font-family">this is a custom font from fonts.google.com</p>
+                    <li>text-align: center, left, right, start, end</li>
+                </ul>
+                
             </ul>
         </li>
     </ol>
