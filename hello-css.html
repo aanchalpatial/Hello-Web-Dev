@@ -98,6 +98,53 @@
                 <h5>subtitle</h5>
             </div>
         </li>
+
+        <li>
+            <h3>Combining CSS selectors</h2>
+            <h4>How to target specific elements to style?</h3>
+            <p>There are 4 types of combiners:</p>
+            <ul>
+                <li>
+                <p> Group =  Apply to both selectors<br>requires a comma in between</p>
+                <img src="./assets/group.png" alt="group" height="50px">
+                </li>
+                <li>
+                <p> Child =  Apply to a direct child of left selector<br>requires &lt; in between</p>
+                <img src="./assets/child.png" alt="child" height="50px">
+                </li>
+                <li>
+                <p> Descendant =  Apply to a descendant of left selector<br>requires a space in between</p>
+                <img src="./assets/descendant.png" alt="descendant" height="50px">
+                </li>
+                <li>
+                <p> Chaining =  Apply where all selectors are true<br>nothing in between</p>
+                <p>By convention, always start with element selector(if any)</p>
+                <img src="./assets/chaining.png" alt="chaining" height="50px">
+                </li>
+                <p>NOTE: Combining combiners: you can also combine different types of combiners</p>
+                <img src="./assets/combining-combiners.png" alt="chaining" height="50px">
+            </ul>
+        </li>
+
+        <li>
+            <h3>CSS positioning</h2>
+                <p>position in box model</p>
+                <img src="./assets/box-model.png" alt="box model" height="150">
+                <p>There are 4 types of positioning:</p>
+                <img src="./assets/positioning.png" alt="CSS positioning" height="120px">
+                <ul>
+                    <li>static</li>
+                    <p>HTML default flow. Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+                        An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page</p>
+                    <li>relative</li>
+                    <p>position relative to default position(i.e to it's statis position)</p>
+                    <li>absolute</li>
+                    <p>position relative to nearest positioned ancestor or top left corner of the webpage<br>positioned ancestor is an ancestor whose position is relative<br> Note: Absolute positioned elements are removed from the normal flow, and can overlap elements</p>
+                    <li>fixed</li>
+                    <p>is positioned relative to the top left corner of browser window(and not the webpage), which means it always stays in the same place even if the page is scrolled.</p>
+                </ul>
+        </li>
     </ol>
 </body>
 </html>
