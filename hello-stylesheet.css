@@ -43,3 +43,33 @@ div {
 
 
 /* Attribute selector */
+
+/* Display property */
+
+.blue-div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.red-div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.block-div {
+    display: block;
+}
+
+.inline-div {
+    display: inline;
+}
+
+.inline-block-div {
+    display: inline-block;
+}
+
+.none-div {
+    display: none;
+}
